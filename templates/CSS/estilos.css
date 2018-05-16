@@ -1,0 +1,114 @@
+body{
+  background-color: black;
+  height:710px;
+  width:950px;
+  margin: auto;
+  background-image: url('../image/2018-AI-safety-grants.jpg');
+  background-size: 100%;
+}
+.cabeza{
+  margin-top: 10px;
+  /* background-color: black; */
+  height:200px; 
+  width:950px;
+}
+#title{
+  display: inline-block;
+}
+#titulo{
+  font-family: 'Poiret One', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  margin-top: 0px;
+  background-image: url('../image/amazonai-hiring-banner-1440x425.jpg');
+  background-size: 100%;
+  border-radius: 10px;
+}
+#logo{  
+  float: left;
+  position: relative;
+  width: 20%;
+  margin: 5px;
+  margin-top:20px;
+  border-radius: 10px;
+}
+
+.cuerpoChatBot{
+  color: white;
+  display: inline-block;
+  float: left;
+  /* background-color: black; */
+  height:600px;
+  width:360px;
+}
+#subtitulo{
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+#chatText{
+  display: block;
+  text-align:left;
+  margin:0 auto;
+  margin-top: 15px;
+  margin-bottom:5px;
+  padding:5px;
+  background:#fff;
+  height:250px;
+  width:320px;
+  border:1px solid #ACD8F0;
+  overflow:auto;
+  border-radius: 10px;
+}
+#textoIngresar{
+  display: inline-block;
+  float: left;
+  width:250px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+#enviar{
+  display: inline-block;
+  height: 40px;
+  border-radius: 10px;
+  
+}
+
+.cuerpoContenido{
+  /* background-color: black; */
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height:600px;
+  width:570px;
+}
+
+.contenido{
+  /* background-color: black; */
+}
+.menu{
+  background-color: white;
+  font-size: 20px;
+}
+
+
+.footer{
+  display: block;
+  color: #fff;
+  text-align: center;
+  height:30px;
+  margin: 20px;
+}
+.contacto strong{
+  display: inline-block;
+}
+.contacto a{
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}

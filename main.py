@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask
+from flask import Flask, render_template
 from flask import request
 from flask import make_response
 
@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return 'Guelcome tu Oboosy'
+    return render_template('index.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():

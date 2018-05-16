@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>Page Title</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+     <script src="main.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+     <script src="jquery/jquery-3.3.1.js"></script>
+     <link rel="stylesheet" href="CSS/estilos.css">
+     <script>
+          $(document).ready(function(){
+               
+               $("#enviar").click(function(){
+                    let textAntes = $("#chatText").val()
+                    let texto = $("#textoIngresar").val()
+                    texto = textAntes + "\n" + texto
+                    $("#chatText").append('<c id="usuario" >'+texto +"</c>"+ "<br>")
+                    $("#textoIngresar").val("")
+                    $("#chatText").scrollTop($("#chatText").height())
+               })
+          })
+     </script>
+</head>
+<body>
+     <section class="contenido">
+          
+          <section class="cabeza">
+               <img id="logo" src="image/artificial_intelligence-512.png" alt="">
+               <p id="title">
+                    <h1 id="titulo">Obootsy</h1>
+               </p>
+               
+          </section>
+          <section class="cuerpoChatBot">
+               <b id="subtitulo">Conoce a Bootsy</b>
+               <br>
+               <div id="chatText">
+                    
+               </div>
+               <br>
+               <textarea name="" id="textoIngresar" cols="50" rows="3"></textarea>
+               <br>
+               <button id="enviar">Enviar</button>
+          </section>
+          <section class="cuerpoContenido">
+               <nav class="menu">
+                    <ul>
+                         <li>
+                              <a href="">menu1</a>
+                              <a href="">menu1</a>
+                              <a href="">menu1</a>
+                         </li>
+                    </ul>
+               </nav>
+          </section>
+     </section>
+     <footer class="footer">
+          <div class="contenedor">
+               <div class="contacto">
+                         <a href=""><strong>Telefono Celular</strong>
+                              <span>+56 9 75278529 </span>
+                         </a>
+                         <a href=""><strong> / Email</strong>
+                              <span>fabian.arancibi93@gmail.com</span>
+                         </a>
+                    </div>
+                    <div class="formulario">
+          
+                    </div>               
+          </div>
+     </footer>
+</body>
+</html>
