@@ -8,8 +8,8 @@
      <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
      <script src="main.js"></script>
      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-     <script src="jquery/jquery-3.3.1.js"></script>
-     <link rel="stylesheet" href="CSS/estilos.css">
+     <script src="{{ url_for('static',filename='jquery/jquery-3.3.1.js')}}"></script>
+     <link rel="stylesheet" href="{{ url_for('static',filename='CSS/estilos.css')}}">
      <script>
           $(document).ready(function(){
                
@@ -28,7 +28,7 @@
      <section class="contenido">
           
           <section class="cabeza">
-               <img id="logo" src="image/artificial_intelligence-512.png" alt="">
+               <img id="logo" src="{{ url_for('static',filename='image/artificial_intelligence-512.png')}}" alt="">
                <p id="title">
                     <h1 id="titulo">Obootsy</h1>
                </p>
