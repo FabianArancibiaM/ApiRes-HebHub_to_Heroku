@@ -36,12 +36,11 @@ body{
 }
 
 .cuerpoChatBot{
-  color: white;
   display: inline-block;
-  float: left;
   /* background-color: black; */
   height:600px;
   width:360px;
+  position: relative;
 }
 #subtitulo{
   font-family: 'Poiret One', cursive;
@@ -65,18 +64,17 @@ body{
   border-radius: 10px;
 }
 #textoIngresar{
-  display: inline-block;
   float: left;
   width:250px;
-  margin-right: 10px;
+  margin-right: 0px;
   margin-left: 20px;
   border-radius: 10px;
 }
 #enviar{
-  display: inline-block;
-  height: 40px;
+  float: right;
+  height: 60px;
   border-radius: 10px;
-  
+  width: 80px;
 }
 
 .cuerpoContenido{
@@ -86,11 +84,9 @@ body{
   margin-left: 10px;
   height:600px;
   width:570px;
+  position: absolute;
 }
 
-.contenido{
-  /* background-color: black; */
-}
 .menu{
   background-color: white;
   font-size: 20px;
